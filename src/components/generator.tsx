@@ -410,9 +410,9 @@ const Generator: React.FC = () => {
       </div>
 
       <div className="lg:w-1/2 flex flex-col items-start w-full">
-        {renderControlCategory('Base Layer', baseOptions, 0)}
-        {renderControlCategory('Right Clothes', clothesOptions, 1)}
-        {renderControlCategory('Right Hat', hatOptions, 2)}
+        {renderControlCategory('Base', baseOptions, 0)}
+        {renderControlCategory('Clothes', clothesOptions, 1)}
+        {renderControlCategory('Hat', hatOptions, 2)}
         {renderControlCategory('Accessory 1', accessoryOptions, 3)}
         {renderControlCategory('Accessory 2', accessory2Options, 4)}
       </div>
